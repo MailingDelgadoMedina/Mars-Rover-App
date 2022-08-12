@@ -1,4 +1,4 @@
-package com.mailingdelgadomedina;
+package com.mailingdelgadomedina.web;
 
 import org.springframework.stereotype.Controller;
 
@@ -16,7 +16,10 @@ public class HomeController {
 		 * instead of put*/
 		/*Line 19 is the model that acts like a json 
 		 * object name being the key an my name the value*/
-		model.put("name", "Mailing Delgado");
+//		model.put("name", "Mailing Delgado");
+		
+		
+		
 		return "index";
 		
 	}
